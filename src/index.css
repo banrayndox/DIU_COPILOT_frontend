@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+.menuBtn {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.2s;
+  color: #ddd;
+}
+
+.menuBtn:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE / Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;             /* Chrome / Safari */
+}
+
+textarea::-webkit-scrollbar {
+  display: none;
+}
